@@ -30,6 +30,26 @@
     </properties>
 
     <dependencies>
+             <dependencies>
+    <!-- JAXB API -->
+    <dependency>
+        <groupId>javax.xml.bind</groupId>
+        <artifactId>jaxb-api</artifactId>
+        <version>2.3.1</version>
+    </dependency>
+    <!-- JAXB Runtime -->
+    <dependency>
+        <groupId>org.glassfish.jaxb</groupId>
+        <artifactId>jaxb-runtime</artifactId>
+        <version>2.3.1</version>
+    </dependency>
+
+    <!-- Activation Framework (required for JAXB) -->
+    <dependency>
+        <groupId>javax.activation</groupId>
+        <artifactId>activation</artifactId>
+        <version>1.1.1</version>
+    </dependency>
         <!-- Data JPA -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
